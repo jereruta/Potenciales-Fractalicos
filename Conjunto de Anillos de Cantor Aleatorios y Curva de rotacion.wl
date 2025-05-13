@@ -41,9 +41,9 @@
 
 (* ::Input:: *)
 (*(*Pot. anillos de Cantor aleatorio*)*)
-(*\[CapitalPhi]ring[r_,z_]:= Sum[\[Phi]ring[r,z,seg],{seg,cantorSet}]-1/r*)
+(*\[CapitalPhi]ring[r_,z_]:= -Sum[\[Phi]ring[r,z,seg],{seg,cantorSet}]-1/r*)
 (*(*Pot. anillos de Cantor aleatorio con z=0*)*)
-(*\[CapitalPhi]0ring[r_]:= Sum[\[Phi]0ring[r,seg],{seg,cantorSet}];*)
+(*\[CapitalPhi]0ring[r_]:= -Sum[\[Phi]0ring[r,seg],{seg,cantorSet}];*)
 
 
 (* ::Input:: *)
