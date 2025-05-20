@@ -31,7 +31,7 @@
 
 (* ::Input:: *)
 (*(*Definison del potencial por segmentos*)*)
-(*\[Phi][r_,z_,seg_] :=Log[(Sqrt[1+((seg[[2]]-z)^2)/r^2]+(seg[[2]]-z)/r)/(Sqrt[1+((seg[[1]]-z)^2)/r^2]+(seg[[1]]-z)/r)]*)
+(*\[Phi][r_,z_,seg_] :=-Log[(Sqrt[1+((seg[[2]]-z)^2)/r^2]+(seg[[2]]-z)/r)/(Sqrt[1+((seg[[1]]-z)^2)/r^2]+(seg[[1]]-z)/r)]*)
 (*\[CapitalPhi][r_,z_]:= Sum[\[Phi][r,z,seg],{seg,cantorSet}]*)
 
 
